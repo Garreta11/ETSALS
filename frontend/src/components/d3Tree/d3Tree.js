@@ -1,8 +1,8 @@
-import styles from './canvas.module.scss';
+import styles from './d3Tree.module.scss';
 import Tree from 'react-d3-tree';
 import data from '../../data';
 
-const Canvas = () => {
+const D3Tree = () => {
   return (
     <div className={styles.canvas}>
       <Tree
@@ -24,4 +24,4 @@ const Canvas = () => {
   );
 };
 
-export default Canvas;
+export default D3Tree;
